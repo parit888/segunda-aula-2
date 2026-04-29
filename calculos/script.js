@@ -8,17 +8,17 @@ function subtração(){
     var n1 = document.getElementById("n3").valueAsNumber
     var n2 = document.getElementById("n4").valueAsNumber
     var resp = document.getElementById("respostasub")
-    resp.textContent = n3 - n4
+    resp.textContent = n1 - n2
 }
-function multiplição(){
+function multiplicao(){
     var n1 = document.getElementById("n5").valueAsNumber
     var n2 = document.getElementById("n6").valueAsNumber
-    var resp = document.getElementById("respostamlti")
-    resp.textContent = n5 * n6
+    var resp = document.getElementById("respostamult")
+    resp.textContent = n1 * n2
 }
 function divisao(){
     var n1 = document.getElementById("n7").valueAsNumber
     var n2 = document.getElementById("n8").valueAsNumber
     var resp = document.getElementById("respostadivi")
-    resp.textContent = n7 / n8
+    resp.textContent = n1 / n2
 }
