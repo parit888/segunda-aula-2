@@ -3,53 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cálculo</title>
+    <title>Cálculos</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+NO:wght@100..400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>cálculos</h1>
-    <br>
+    <nav>
+        <a href="../calculos/">Cálculos</a>
+        <a href="../calculadoraGPT/">Calculadora GPT</a>
+        <a href="../calcMedia/">Média</a>
+        <!-- <a href="#">###</a>
+        <a href="#">###</a> -->
+    </nav>
+
+    <h1>Cálculos</h1>
+
+ <main>
     <div>
-        <h2>adição</h2>
-        <label for="">primeiro numero</label>
+        <h2>Soma</h2>
+        <label for="n1">Primeiro número</label>
         <input type="number" id="n1">
-        <label for="">sgundo numero</label>
+        <label for="n2">Segundo número</label>
         <input type="number" id="n2">
-        <button onclick="somar()">somar</button>
+        <button onclick="somar()">Somar</button>
         <p id="resposta"></p>
-    <br>
     </div>
-        <div>
-        <h2>subtração</h2>
-        <label for="">primeiro numero</label>
+   
+     <div>
+        <h2>Subtração</h2>
+        <label for="n3">Primeiro número</label>
         <input type="number" id="n3">
-        <label for="">sgundo numero</label>
+        <label for="n4">Segundo número</label>
         <input type="number" id="n4">
-        <button onclick="subtração()">subtrair</button>
-        <p id="respostasub"></p>
-    <br>
+        <button onclick="sub()">Subtrair</button>
+        <p id="respSub"></p>
     </div>
-    <div>
-        <h2>multiplição</h2>
-        <label for="">primeiro numero</label>
+   
+      <div>
+        <h2>Multiplicação</h2>
+        <label for="n5">Primeiro número</label>
         <input type="number" id="n5">
-        <label for="">sgundo numero</label>
+        <label for="n6">Segundo número</label>
         <input type="number" id="n6">
-        <button onclick="multiplicao()">multiplicar</button>
-        <p id="respostamult"></p>
-    <br>
+        <button onclick="multi()">Multiplicar</button>
+        <p id="respMulti"></p>
     </div>
-    <div>
-        <h2>divisao</h2>
-        <label for="">primeiro numero</label>
+ 
+         <div>
+        <h2>Divisão</h2>
+        <label for="n7">Primeiro número</label>
         <input type="number" id="n7">
-        <label for="">sgundo numero</label>
+        <label for="n8">Segundo número</label>
         <input type="number" id="n8">
-        <button onclick="divisao()">dividir</button>
-        <p id="respostadivi"></p>
+        <button onclick="div()">Dividir</button>
+        <p id="respDiv"></p>
     </div>
-
-
+</main>
 
     <script src="script.js"></script>
 </body>

@@ -1,1 +1,1 @@
-# segunda-aula-2
+# sala08exerciciosJS
