@@ -16,6 +16,7 @@ nav{
     justify-content: center;
     gap: 20px;
     animation: fromTop 500ms ease-in-out;
+    z-index: 999;
 }
 
 @keyframes fromTop {
@@ -40,4 +41,31 @@ a{
 a:hover{
     cursor: pointer;
     opacity: 1;
+}
+.central{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 150px;
+}
+.card.mb-3{
+    width: 400px;
+    height: 200px;
+    box-shadow: 0px 3px 10px #090909;
+    border: none;
+    transition: all 200ms ease-in-out;
+}
+div .card.mb-3{    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.card{
+    width: 600px;
 }
